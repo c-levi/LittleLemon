@@ -7,5 +7,4 @@ urlpatterns = [
     path('items/', views.MenuItemsView.as_view()),
     path('items/<int:pk>', views.SingleMenuItemView.as_view()),
     path('api-token-auth/', obtain_auth_token),
-    # TODO: map Booking view
 ]
